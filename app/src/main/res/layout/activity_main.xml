@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Label image"
+        android:id="@+id/label_image_btn"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Recognise text"
+        android:layout_height="wrap_content"
+        android:id="@+id/recognise_text_btn"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Detect language"
+        android:layout_height="wrap_content"
+        android:id="@+id/detect_language_btn"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:text="You can label image, recognise text and detect language"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view"/>
+
+</LinearLayout>
